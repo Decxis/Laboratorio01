@@ -9,7 +9,7 @@ public class App {
     public static void main(String[] args) {
         try {
             // Crea una instancia del analizador léxico
-            compiladores.laboratorio01.NotacionLexer lexer = new compiladores.laboratorio01.NotacionLexer(new FileReader("C:\\Users\\kevin\\OneDrive\\Escritorio\\umg\\Copiladores\\Semana1\\laboratorio01\\laboratorio01\\Lista.txt"));
+            compiladores.laboratorio01.NotacionLexer lexer = new compiladores.laboratorio01.NotacionLexer(new FileReader("Directorio"));
 
             // Itera sobre los tokens
             Token token;
